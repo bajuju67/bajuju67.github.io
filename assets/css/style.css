@@ -1,0 +1,25 @@
+html, body { height: 100%;}
+.container {padding-top: 30px; padding-bottom: 30px;}
+.head {}
+.middle {}
+.middle .left, .middle .right {}
+.middle .left {}
+.bottom {}
+
+.section {}
+.subsection {}
+
+.section-title, .subsection-title {text-transform: uppercase; font-family: 'Roboto mono', monospace;}
+.subsection-title {}
+.date {}
+.location {}
+
+.photo img {width: 40%;}
+.name h1, .name h4 {text-transform: uppercase; margin: 0px;}
+.name h1 {font-family: 'Fira Code', monospace; font-weight: bold; font-size: 35px; text-transform: uppercase;}
+.name h4 {font-family: 'Fira Code', monospace; text-transform: uppercase; font-weight: 600;}
+.name p {font-family: 'Fira Code', monospace;}
+.keywords {font-family: 'Fira Code', monospace;}
+#info {font-family: 'Fira Code'}
+#info ul {list-style: none; padding: 0px;}
+.highlights {font-family: 'Noto Sans', monospace;}
