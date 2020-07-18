@@ -1,25 +1,16 @@
 html, body { height: 100%;}
 .container {padding-top: 30px; padding-bottom: 30px;}
-.head {}
-.middle {}
-.middle .left, .middle .right {}
-.middle .left {}
-.bottom {}
-
-.section {}
-.subsection {}
-
+.subsection-title {color: rgb(85, 73, 173); font-weight: 700;}
 .section-title, .subsection-title {text-transform: uppercase; font-family: 'Roboto mono', monospace;}
-.subsection-title {}
-.date {}
-.location {}
-
-.photo img {width: 40%;}
+.left p {margin-top: 0px}
+.photo img {width: 40%; margin-bottom: 20px;}
 .name h1, .name h4 {text-transform: uppercase; margin: 0px;}
-.name h1 {font-family: 'Fira Code', monospace; font-weight: bold; font-size: 35px; text-transform: uppercase;}
-.name h4 {font-family: 'Fira Code', monospace; text-transform: uppercase; font-weight: 600;}
-.name p {font-family: 'Fira Code', monospace;}
-.keywords {font-family: 'Fira Code', monospace;}
-#info {font-family: 'Fira Code'}
+.name h1 {font-weight: bold; font-size: 35px;}
+.name h4 {font-weight: 600;}
+#info, #skills p, .name p, .name h4, .name h1, .keywords {font-family: 'Fira Code', monospace;}
 #info ul {list-style: none; padding: 0px;}
-.highlights {font-family: 'Noto Sans', monospace;}
+.highlights, .date, .location {font-family: 'Noto Sans', monospace;}
+
+@media(max-width: 600px) {
+    .name h1 {font-size: 20px;}
+}
