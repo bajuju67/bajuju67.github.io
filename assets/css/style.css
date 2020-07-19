@@ -3,7 +3,12 @@ html, body { height: 100%;}
 .subsection-title {color: rgb(85, 73, 173); font-weight: 700;}
 .section-title, .subsection-title {text-transform: uppercase; font-family: 'Roboto mono', monospace;}
 .left p {margin-top: 0px}
-.photo img {width: 40%; margin-bottom: 20px;}
+.photo div{width: 40%; margin-bottom: 20px; background: url(../malek.png) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;}
+.photo>div:hover {background: url(../malek-alt.jpg) no-repeat center center fixed;}
 .name h1, .name h4 {text-transform: uppercase; margin: 0px;}
 .name h1 {font-weight: bold; font-size: 35px;}
 .name h4 {font-weight: 600;}
