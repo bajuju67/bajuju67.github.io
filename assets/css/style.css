@@ -13,9 +13,11 @@ html, body { height: 100%;}
 .name h1 {font-weight: bold; font-size: 35px;}
 .name h4 {font-weight: 600;}
 #info, #skills p, .name p, .name h4, .name h1, .keywords {font-family: 'Fira Code', monospace;}
-#info ul {list-style: none; padding: 0px;}
-.highlights, .date, .location {font-family: 'Noto Sans', monospace;}
 
+#info ul {list-style: none; padding: 0px;}
+
+.highlights, .date, .location {font-family: 'Noto Sans', monospace;}
+.date, #info a {color: rgb(148, 86, 199);}
 @media(max-width: 600px) {
     .name h1 {font-size: 20px;}
 }
