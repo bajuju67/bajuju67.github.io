@@ -12,12 +12,15 @@ html, body { height: 100%;}
 .name h1, .name h4 {text-transform: uppercase; margin: 0px;}
 .name h1 {font-weight: bold; font-size: 35px;}
 .name h4 {font-weight: 600;}
-#info, #skills p, .name p, .name h4, .name h1, .keywords {font-family: 'Fira Code', monospace;}
-
-#info ul {list-style: none; padding: 0px;}
+#info, #info-mobile #skills p, .name p, .name h4, .name h1, .keywords {font-family: 'Fira Code', monospace;}
+#info-mobile {display:none; padding: 0px 15px;}
+#info ul, #info-mobile ul {list-style: none; padding: 0px;}
 
 .highlights, .date, .location {font-family: 'Noto Sans', monospace;}
-.date, #info a {color: rgb(148, 86, 199);}
+.date, #info a, #info-mobile a {color: rgb(148, 86, 199);}
 @media(max-width: 600px) {
+    .container {margin: 20px;}
     .name h1 {font-size: 20px;}
+    #info-mobile {display: block;}
+    #experience h2 {margin-top:0px;}
 }
