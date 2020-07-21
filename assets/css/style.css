@@ -18,6 +18,11 @@ html, body { height: 100%;}
 
 .highlights, .date, .location {font-family: 'Noto Sans', monospace;}
 .date, #info a, #info-mobile a {color: rgb(148, 86, 199);}
+
+::selection {
+    background-color:  rgb(240, 200, 260);
+    color: rgb(85, 73, 173);
+}
 @media(max-width: 600px) {
     .container {margin: 20px;}
     .name h1 {font-size: 20px;}
