@@ -18,7 +18,8 @@ html, body { height: 100%;}
 
 .highlights, .date, .location {font-family: 'Noto Sans', monospace;}
 .date, #info a, #info-mobile a {color: rgb(148, 86, 199);}
-
+.bottom {padding: 20px 0px;}
+.bottom img {width: 70px;}
 ::selection {
     background-color:  rgb(240, 200, 260);
     color: rgb(85, 73, 173);
