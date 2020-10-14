@@ -1,4 +1,5 @@
 html, body { height: 100%;}
+body {font-family: 'Fira Code', monospace;}
 .container {padding-top: 30px; padding-bottom: 30px;}
 .subsection-title {color: rgb(85, 73, 173); font-weight: 700;}
 .section-title, .subsection-title {text-transform: uppercase; font-family: 'Roboto mono', monospace;}
@@ -12,11 +13,10 @@ html, body { height: 100%;}
 .name h1, .name h4 {text-transform: uppercase; margin: 0px;}
 .name h1 {font-weight: bold; font-size: 35px;}
 .name h4 {font-weight: 600;}
-#info, #info-mobile #skills p, .name p, .name h4, .name h1, .keywords {font-family: 'Fira Code', monospace;}
 #info-mobile {display:none; padding: 0px 15px;}
 #info ul, #info-mobile ul {list-style: none; padding: 0px;}
 
-.highlights, .date, .location {font-family: 'Noto Sans', monospace;}
+.date, .location {font-family: 'Noto Sans', monospace;}
 .date, #info a, #info-mobile a {color: rgb(148, 86, 199);}
 .bottom {padding: 20px 0px;}
 .bottom img {width: 70px;}
